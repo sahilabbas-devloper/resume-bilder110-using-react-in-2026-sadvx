@@ -27,7 +27,7 @@ function Hero() {
          <p> (*_*) Trusted by 60k++ users</p>
         </div>
 
-<div   className='w-full  rounded-2xl hidden md:block overflow-hidden'>
+<div   className='w-full mix-blend-darken rounded-2xl hidden md:block overflow-hidden'>
     <img src={heroimg}
      className='w-full max-w-md h-auto object-cover'
     alt="hero" />
