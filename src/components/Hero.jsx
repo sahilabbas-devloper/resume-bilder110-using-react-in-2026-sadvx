@@ -1,6 +1,7 @@
 import React from 'react'
 import {Link} from "react-router-dom"
 import {Typewriter} from "react-simple-typewriter"
+import heroimg from "../assets/hero.png"
 
 function Hero() {
     return (
@@ -27,9 +28,9 @@ function Hero() {
         </div>
 
 <div   className='w-full  rounded-2xl hidden md:block overflow-hidden'>
-    <img src="https://gradly.in/wp-content/uploads/2024/03/web-img-1.png"
+    <img src={heroimg}
      className='w-full max-w-md h-auto object-cover'
-    alt="img" />
+    alt="hero" />
 </div>
 
       </div>
